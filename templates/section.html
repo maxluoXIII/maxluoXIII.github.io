@@ -1,0 +1,25 @@
+{% extends "index.html" %}
+
+{% block sidebar_nav %}
+  {% for link in config.extra.site_menus %}
+    <li>
+      <a href="{{ link.url }}">
+        <span>
+          {% if section.path is containing(link.url) %}
+            <b>
+          {% endif %}
+            {{ link.name }}
+          {% if section.path is containing(link.url) %}
+            </b>
+          {% endif %}
+        </span>
+      </a>
+    </li>
+  {% endfor %}
+{% endblock sidebar_nav %}
+
+{% block content %}
+  {% if section.content %}
+    <div class="section-content">{{ section.content | safe }}</div>
+  {% endif %}
+{% endblock content %}

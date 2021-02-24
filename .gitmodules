@@ -1,0 +1,6 @@
+[submodule "themes/oceanic-zen"]
+	path = themes/oceanic-zen
+	url = https://github.com/barlog-m/oceanic-zen.git
+[submodule "themes/solar-theme-zola"]
+	path = themes/solar-theme-zola
+	url = https://github.com/hulufei/solar-theme-zola.git

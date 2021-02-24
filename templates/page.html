@@ -1,0 +1,20 @@
+{% extends "solar-theme-zola/templates/page.html" %}
+
+{% block sidebar_nav %}
+  {% for link in config.extra.site_menus %}
+    <li>
+      <a href="{{ link.url }}">
+        <span>
+          {% set section_path = "/"~page.components[0] %}
+          {% if section_path is containing(link.url) %}
+            <b>
+          {% endif %}
+            {{ link.name }}
+          {% if section_path is containing(link.url) %}
+            </b>
+          {% endif %}
+        </span>
+      </a>
+    </li>
+  {% endfor %}
+{% endblock sidebar_nav %}

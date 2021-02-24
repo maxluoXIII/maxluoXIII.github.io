@@ -1,8 +1,8 @@
----
-layout: page
-title: About
-permalink: /about/
----
++++
+title = "About"
+template = "section.html"
+aliases = ["about"]
++++
 
 This is the personal website/blog of Maxiwell Luo, though right now it's housing some of my random thoughts. Check out my [GitHub](https://github.com/maxluoXIII) to see my projects. Check out my [Twitter](https://twitter.com/maxXIII13) for my shorter random thoughts.
 
