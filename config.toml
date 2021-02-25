@@ -24,7 +24,8 @@ highlight_theme = "solarized-dark"
 # solarized
 site_menus = [
     {url = "/blog", name = "Posts"},
-    {url = "/about", name = "About"}
+    {url = "https://github.com/maxluoXIII/resume/blob/master/Resume.pdf", name = "Resume"},
+    {url = "/about", name = "About"},
 ]
 
 author = "Maxiwell Luo"
