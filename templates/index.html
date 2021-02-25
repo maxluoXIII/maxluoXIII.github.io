@@ -1,0 +1,26 @@
+{% extends "solar-theme-zola/templates/index.html" %}
+
+{% block sidebar_nav %}
+  {% if section and section.components | length != 0 %}
+    {% set base_section = "/"~section.components[0] %}
+  {% elif page %}
+    {% set base_section = "/"~page.components[0] %}
+  {% else %}
+    {% set base_section = "" %}
+  {% endif %}
+  {% for link in config.extra.site_menus %}
+    <li>
+      <a href="{{ link.url }}">
+        <span>
+          {% if base_section is containing(link.url) %}
+            <b>
+          {% endif %}
+            {{ link.name }}
+          {% if base_section is containing(link.url) %}
+            </b>
+          {% endif %}
+        </span>
+      </a>
+    </li>
+  {% endfor %}
+{% endblock sidebar_nav %}
