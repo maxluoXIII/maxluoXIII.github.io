@@ -3,6 +3,9 @@ title = "Transition to Zola"
 date = 2021-02-24
 +++
 
+Summary: The site has been transitioned from Jekyll to Zola, read about the decision here!
+<!-- more -->
+
 Hello! If by some miracle you saw my site in the past couple of months, you'll notice that it looks quite different now, and that it maybe doesn't look quite so refined. I actually agree, but I think this is going to be better for my development of this site in the future. I've transitioned the site from [Jekyll](https://jekyllrb.com/) to [Zola](https://www.getzola.org/) because I don't want to install Ruby, a language which I have never used on each machine that I want to work on. As a plus, Zola and Tera, the templating language that Zola uses are both written in Rust, a language that I have been interested in for months. If I come across bugs or missing features, I'll have an excuse to finally learn Rust for good and add some contributions.
 
 The downside is that Zola is nowhere near as popular as Jekyll, so documentation and resources are far more scarce as well. The documentation on the official site is good enough for most things I want to do anyway, though, and I've found that the live reloading feature actually works better than on Jekyll. 
