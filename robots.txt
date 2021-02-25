@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://maxluoxiii.github.io/sitemap.xml
