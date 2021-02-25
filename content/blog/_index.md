@@ -1,7 +1,8 @@
 +++
 title = "Blog Posts"
-template = "section.html"
+template = "blog.html"
 page_template = "page.html"
 aliases = ["blog"]
 transparent = true
+paginate_by = 10
 +++
