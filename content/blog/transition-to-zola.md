@@ -1,6 +1,10 @@
 +++
 title = "Transition to Zola"
 date = 2021-02-24
+
+[taxonomies]
+year = ["2021"]
+topic = ["meta"]
 +++
 
 Summary: The site has been transitioned from Jekyll to Zola, read about the decision here!
