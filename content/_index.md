@@ -1,5 +1,5 @@
 +++
-title = "Blog Posts"
+title = "Base Section"
 template = "index.html"
 page_template = "page.html"
 transparent = true
