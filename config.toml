@@ -28,6 +28,10 @@ site_menus = [
     {url = "/about", name = "About"},
 ]
 
-author = "Maxiwell Luo"
 github = "maxluoxiii"
 twitter = "maxXIII13"
+
+[extra.author]
+name = "Maxiwell Luo"
+image = "/real_me_square.jpg"
+bio = "Extraordinarily ordinary"
