@@ -1,5 +1,9 @@
 {% extends "solar-theme-zola/templates/index.html" %}
 
+{% block extra_head %}
+<link rel="stylesheet" href="{{ get_url(path="extra-layout.css", trailing_slash=false) }}">
+{% endblock extra_head %}
+
 {% block sidebar %}
   {% if config.extra.site_menus %}
   <nav>
@@ -25,6 +29,19 @@
                 {% endif %}
               </span>
             </a>
+
+            {% if base_section is containing(link.url) %}
+              {% if section and section.extra.taxonomies %}
+              <ul>
+                {% for taxonomy in section.extra.taxonomies %}
+                  {% set taxonomy_link = "/" ~ taxonomy %}
+                  <li>
+                    <a href="{{ taxonomy_link }}">{{ taxonomy }}</a>
+                  </li>
+                {% endfor %}
+              </ul>
+              {% endif %}
+            {% endif %}
           </li>
         {% endfor %}
       {% endblock sidebar_nav %}

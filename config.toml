@@ -19,6 +19,11 @@ default_language = "en"
 theme = "solar-theme-zola"
 highlight_theme = "solarized-dark"
 
+taxonomies = [
+    { name = "year", feed = true },
+    { name = "topics", feed = true }
+]
+
 [extra]
 # Put all your custom variables here
 # solarized

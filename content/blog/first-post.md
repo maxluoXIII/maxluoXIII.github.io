@@ -1,6 +1,10 @@
 +++
 title = "First Post"
 date = 2021-01-08
+
+[taxonomies]
+year = ["2021"]
+topics = ["meta"]
 +++
 
 Hello, and welcome to my blog. This has been a long time coming, and I've finally gotten around to setting it up. I still don't have a solid idea of what this will turn into, but for the time being I'll be writing about whatever catches my fancy, which will typically be things such as programming, anime, or video games. Probably close to no one will be reading this, but there is something comforting about ranting into the void.
