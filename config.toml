@@ -11,6 +11,8 @@ highlight_code = true
 # Whether to build a search index to be used later on by a JavaScript library
 build_search_index = true
 
+generate_feed = true
+
 title = "Maxiwell Luo"
 description = "Welcome to the personal website/blog of Maxiwell Luo. Look around at what I'm working on and read some of my random thoughts."
 
