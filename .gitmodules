@@ -3,4 +3,4 @@
 	url = https://github.com/barlog-m/oceanic-zen.git
 [submodule "themes/solar-theme-zola"]
 	path = themes/solar-theme-zola
-	url = https://github.com/hulufei/solar-theme-zola.git
+	url = git@github.com:maxluoXIII/solar-theme-zola.git
